@@ -4,14 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.cjs",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
     "nodemon": "^3.1.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
