@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "start": "^5.1.0"
