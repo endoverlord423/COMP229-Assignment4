@@ -109,6 +109,11 @@ app.get("/me", requireAuth, async (req, res)=>{
   })
 })
 
+///Basic route
+app.get("/", (req, res) => {
+    res.send("User Account Management API is running");
+});
+
 app.listen(process.env.PORT,  () => {
   console.log("App is runnning in: ", process.env.PORT);
 });
